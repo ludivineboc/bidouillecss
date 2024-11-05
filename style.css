@@ -3,13 +3,19 @@
 /*Consignes*/
 h1{
     font-size: 64px;
+    text-transform : uppercase;
+}
+body{
+    font-family: serif;
 }
 h2{
     font-size: 32px;
 }
-h1,h2{
-    text-transform : uppercase;
+hr{
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
+
 .consignes{
     background-color: lightgoldenrodyellow;
     padding: 32px;
@@ -65,4 +71,21 @@ h1,h2{
 }
 
 
+/*Designer la card*/
 
+.card{
+    width: 300px;
+    box-shadow: 4px 4px 12px #00000025; 
+    border-radius: 16px;
+    padding: 8px;
+    font-family: 'Inter','sans-serif';
+   
+}
+
+.card img{
+    display: block;
+    width: 100%;
+}
+.card .bouton{
+   margin-bottom: 0;
+}
