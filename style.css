@@ -4,11 +4,17 @@
 h1{
     font-size: 64px;
 }
+h2{
+    font-size: 32px;
+}
+h1,h2{
+    text-transform : uppercase;
+}
 .consignes{
     background-color: lightgoldenrodyellow;
     padding: 32px;
-    margin-top: -32px;
-    margin-bottom: -32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 .center{
     text-align: center;
