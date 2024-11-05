@@ -1,0 +1,12 @@
+.bouton{
+   display: block; 
+   text-decoration: none;
+   width:fit-content;
+   padding: 16px 32px;
+   margin-bottom: 16px;
+}
+
+.bordure-pleine{
+    border : solid 1px black;
+}
+
