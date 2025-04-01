@@ -1,55 +1,237 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bidouille css</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+  <!-- cerveau de notre site. paramétrage-->
+  <head>
+    <!-- encodage. Alphabet utilisé -->
+    <meta charset="UTF-8" />
+    <!-- compatibilité avec les autres support, les autres format d'appareils -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- nom du site . apparaitra dans l'onglet -->
+    <title>La ruche</title>
+  </head>
 
-    
-    <body>
-        <h1>Hello world</h1>
-        <p>Ceci est mon site de bidouillage pour apprendre css</p>
-<hr>      
-        <!-- Consigne -->
-        <h2>Jouons avec des boutons</h2>
-        <section class="consignes">
-            <h3>Consignes</h3>
-            <p>Reproduire les boutons suivants en faisant des classes fonctionnelles et en regroupant dans des classes composants les propriétés qui se répetents sur tous les boutons</p>
-            <div class="center">
-                <img src="./assets/Boutons.png" alt="">    
-            </div>
-        </section>
+  <!-- l'ensemble visible par le visiteur de notre site -->
+  <body>
+    <header>
+      <img src="assets/logo-ruche.png" alt="logo de la ruche" />
+      <nav>
+        <ul>
+          <li><a href="">Nos produits</a></li>
+          <li><a href="">Notre savoir faire</a></li>
+          <li><a href="">Notre histoire</a></li>
+          <li><a href="#nousTrouver">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <!-- Correction des boutons -->
-        <section>
-            
-            <a href="" class="bouton border-solid inter-big">Clique moi dessus !</a>
-            <a href="" class="bouton inter-big border-dashed">Clique moi dessus !</a>
-            <a href="" class="bouton bg-green inter-big radius-32">Clique moi dessus !</a>
-            <a href="" class="bouton bg-green inter-big radius-0-32">Clique moi dessus !</a>
-            <a href="" class="bouton bg-blue radius-8 text-white inter-small">Visiter le lieu</a>
-            <a href="" class="bouton bg-blue text-white inter-small radius-32">Visiter le lieu</a>
-        </section>
-<hr>
-        <h2>Un composant : la card</h2>
-        <!-- consigne -->
-         <section class="consignes">
-            <p>reproduire la petite carte suivante</p>
-            <div class="center">
-                <img src="./assets/maquette-carte.jpg" alt="">
-            </div>
-         </section>
-        
-         <!-- Le code de la petite carte -->
-        <div class="card">
-            <img src="./assets/voyage.jpg" alt="">
-            <h3>Titre de la carte</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum numquam iste nulla ad! Doloribus similique expedita mollitia, consequuntur quasi obcaecati quidem sequi assumenda sunt, hic laborum rerum dolorum quisquam officia.</p>
-            <a href="" class="bouton bg-blue radius-8 text-white inter-small">Visiter le lieu</a>
-        </div>
-        
-    </body>
+    <main>
+      <!-- HERO -->
+      <section>
+        <h1>Miels traditionnel</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea hic ex
+          est libero, nesciunt ipsum. Non est nobis sequi natus sed mollitia
+          laudantium in molestiae quidem! Ipsa alias molestiae cupiditate. Ea,
+          atque veniam! Reiciendis dolore rerum tempore eos doloribus! Assumenda
+          repellendus quos reiciendis eum tenetur ut debitis illo delectus
+          eaque, eveniet nobis tempora architecto amet dolorum qui distinctio
+          necessitatibus cum. Beatae accusantium alias ducimus facere iure, quis
+          cumque reprehenderit voluptate dolorem illo nesciunt soluta, aut
+          mollitia, quidem similique ratione ab. Officia, quis? Esse delectus
+          earum amet accusamus nesciunt ad consequuntur?
+        </p>
+      </section>
+
+      <!-- ENGAGEMENTS -->
+      <section>
+        <h3>Nos engagements</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea hic ex
+          est libero, nesciunt ipsum. Non est nobis sequi natus sed mollitia
+          laudantium in molestiae quidem! Ipsa alias molestiae cupiditate. Ea,
+          atque veniam! Reiciendis dolore rerum tempore eos doloribus! Assumenda
+          repellendus quos reiciendis eum tenetur ut debitis illo delectus
+          eaque, eveniet nobis tempora architecto amet dolorum qui distinctio
+          necessitatibus cum. Beatae accusantium alias ducimus facere iure, quis
+          cumque reprehenderit voluptate dolorem illo nesciunt soluta, aut
+          mollitia, quidem similique ratione ab. Officia, quis? Esse delectus
+          earum amet accusamus nesciunt ad consequuntur?Lorem ipsum, dolor sit
+          amet consectetur adipisicing elit. Nulla molestias alias, dolorem rem
+          sint eum ut libero ipsum, provident optio ratione voluptate totam
+          officia, reiciendis iure voluptas. Porro, eos perspiciatis.
+          Perferendis fuga odit at, consectetur recusandae repellat, repudiandae
+          dolore placeat maiores nostrum earum quaerat temporibus repellendus
+          quas eligendi, ducimus veritatis! Molestiae rem eaque hic accusantium
+          eos nesciunt alias, laboriosam consequuntur? Temporibus dolor,
+          deleniti reprehenderit nemo repudiandae suscipit minus adipisci,
+          quisquam repellat excepturi magnam blanditiis facere ipsam aliquid
+          laborum quaerat? Fuga maiores odio harum minima molestiae neque, ea
+          porro quaerat iure? Numquam cumque nam ex aliquid iure consequuntur
+          fuga laudantium, eum dicta soluta vitae consectetur? Nemo quia aperiam
+          obcaecati eum eligendi enim, quo quos ex dignissimos ab similique
+          adipisci est animi! Optio veritatis, officia corporis praesentium, in
+          laborum corrupti sit reprehenderit labore neque, numquam blanditiis
+          ratione. Eligendi eaque quod rem ea sequi odit, laborum alias soluta
+          modi, vel nemo porro sunt? Consequuntur obcaecati consequatur nihil
+          sed est excepturi in doloremque vel voluptate veritatis, adipisci at
+          aperiam sapiente laudantium explicabo ex rerum sint fugiat architecto
+          non ipsam, corporis dolore suscipit? Recusandae, tempore. Expedita at
+          aliquam, molestiae inventore voluptate voluptatum eum dicta eligendi
+          cum harum quam velit, autem delectus corporis eos culpa molestias
+          exercitationem maiores a quasi, ullam dolores odio reprehenderit ipsa?
+          Assumenda. Consectetur, sint! Sequi quisquam laborum, cumque quos
+          aliquid alias et quae odit officiis praesentium, optio enim a saepe
+          blanditiis! Labore, nemo id corporis in perspiciatis maiores ex ad
+          tempora quibusdam. Maxime quos quod repudiandae alias nam, dolores
+          accusantium quasi dolore fugiat, inventore labore repellendus laborum
+          animi voluptates veniam aperiam error, fuga modi odit libero est
+          aliquid. Veniam esse aut quos! Nesciunt officiis, porro dolorum
+          corrupti eaque id cumque dicta ipsam dolores deleniti? Recusandae,
+          doloremque exercitationem consequuntur a laboriosam quas explicabo
+          doloribus id omnis praesentium? Doloremque rem accusantium quas illum
+          excepturi.
+        </p>
+      </section>
+
+      <!-- BIENFAITS -->
+      <section>
+        <h3>Nos bienfaits</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea hic ex
+          est libero, nesciunt ipsum. Non est nobis sequi natus sed mollitia
+          laudantium in molestiae quidem! Ipsa alias molestiae cupiditate. Ea,
+          atque veniam! Reiciendis dolore rerum tempore eos doloribus! Assumenda
+          repellendus quos reiciendis eum tenetur ut debitis illo delectus
+          eaque, eveniet nobis tempora architecto amet dolorum qui distinctio
+          necessitatibus cum. Beatae accusantium alias ducimus facere iure, quis
+          cumque reprehenderit voluptate dolorem illo nesciunt soluta, aut
+          mollitia, quidem similique ratione ab. Officia, quis? Esse delectus
+          earum amet accusamus nesciunt ad consequuntur?Lorem ipsum dolor sit
+          amet consectetur adipisicing elit. Iure voluptate obcaecati repellat
+          perferendis, unde possimus porro placeat quasi in id maxime modi culpa
+          aliquam molestiae aspernatur aut sit consectetur laudantium! Odit enim
+          iusto odio tenetur voluptate, sequi dolor nostrum culpa natus illo.
+          Amet, excepturi saepe debitis nesciunt animi dolore quia vel
+          voluptatem, delectus facilis magnam expedita, tempore esse dignissimos
+          nihil. In vel atque rem nemo exercitationem unde libero commodi
+          voluptate, eaque, iusto, delectus quibusdam perspiciatis
+          necessitatibus distinctio voluptatum deserunt nam natus accusamus
+          sapiente aspernatur tempora corporis aut assumenda recusandae.
+          Aliquid! Nisi eius voluptatum alias eos corporis pariatur accusamus
+          assumenda tempore provident atque voluptatem sequi sapiente, cumque
+          voluptatibus necessitatibus! Harum, ducimus. Quidem natus odit
+          asperiores atque enim laudantium rerum incidunt aperiam. Animi aliquam
+          molestias possimus eius quas sunt voluptatem architecto, blanditiis
+          harum fugit rerum incidunt id laudantium adipisci atque cupiditate,
+          pariatur amet? In praesentium corrupti saepe amet similique porro
+          corporis dignissimos! Praesentium velit fugiat minima obcaecati
+          blanditiis veritatis iure, illo aperiam in illum officia molestias
+          natus voluptates adipisci earum. Ea cumque autem, facere animi illum
+          aliquam totam fugit labore eaque quis! Perferendis laboriosam
+          architecto cum excepturi ex autem error reprehenderit, modi animi
+          explicabo? Consequuntur similique dicta maxime magnam temporibus
+          veniam molestias consequatur enim, ex, libero blanditiis voluptatum
+          numquam tempore recusandae repudiandae. Ipsam maiores neque iure
+          assumenda labore corporis at dignissimos fugit dolorum error dicta,
+          odio ducimus, consequuntur doloribus. Est voluptatum a tempore laborum
+          nulla, deleniti, quidem, qui amet adipisci totam magni? At delectus
+          aliquid officia aliquam, magni, tenetur assumenda eaque veniam ipsa
+          dolore, laboriosam earum veritatis nemo corporis? Ipsum delectus,
+          eligendi molestiae ab id natus autem eos vitae modi laboriosam
+          explicabo. Placeat obcaecati iusto deleniti unde error ipsum sapiente
+          culpa ducimus modi pariatur et debitis ab, illum ipsam optio veritatis
+          vero odit eligendi officiis? Tenetur ea itaque dignissimos autem vero!
+          Expedita.
+        </p>
+      </section>
+
+      <!-- PRODUITS -->
+      <section>
+        <h3>Nos produits</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea hic ex
+          est libero, nesciunt ipsum. Non est nobis sequi natus sed mollitia
+          laudantium in molestiae quidem! Ipsa alias molestiae cupiditate. Ea,
+          atque veniam! Reiciendis dolore rerum tempore eos doloribus! Assumenda
+          repellendus quos reiciendis eum tenetur ut debitis illo delectus
+          eaque, eveniet nobis tempora architecto amet dolorum qui distinctio
+          necessitatibus cum. Beatae accusantium alias ducimus facere iure, quis
+          cumque reprehenderit voluptate dolorem illo nesciunt soluta, aut
+          mollitia, quidem similique ratione ab. Officia, quis? Esse delectus
+          earum amet accusamus nesciunt ad consequuntur? Lorem, ipsum dolor sit
+          amet consectetur adipisicing elit. Enim deleniti ipsum consequatur.
+          Repudiandae obcaecati explicabo repellat cupiditate quia labore porro
+          in facilis. Illo molestias, tempore unde corporis quos quisquam enim.
+          Doloremque eius, magni architecto consectetur dolorem a in. Aut,
+          eligendi ullam, id officia omnis eos voluptates adipisci soluta rerum
+          laudantium quaerat delectus iste doloribus inventore iure! Animi
+          placeat corporis repudiandae. Minima, voluptas officiis. Dolores,
+          aspernatur sint accusamus reprehenderit suscipit enim, consectetur,
+          voluptatum nihil distinctio ducimus explicabo voluptatibus ad hic.
+          Nesciunt, fugit asperiores quaerat ad amet culpa quibusdam voluptate!
+          Cum, dolore. Voluptatum ipsa ullam illum quam laudantium ad!
+          Laboriosam quibusdam minus est ut, aperiam, ipsa fugiat maxime beatae
+          aliquid perspiciatis officiis fugit blanditiis esse facilis iusto
+          recusandae corporis tempore. Doloribus, accusamus. In impedit error
+          libero mollitia, cupiditate ut quibusdam sint similique, ratione
+          voluptas aliquid nam optio. Esse aperiam magni necessitatibus,
+          distinctio iure expedita quia odit officiis quisquam sequi dolor
+          commodi debitis. Sed quisquam error est deleniti sapiente eligendi
+          dolore itaque sequi necessitatibus! Est beatae ducimus, aliquid
+          blanditiis, iure porro iusto sit dolorum amet voluptatibus
+          perspiciatis expedita minima consequuntur sed eveniet laboriosam.
+          Dolorem minima mollitia aut iste incidunt a soluta esse veniam earum
+          in minus tempora, corrupti iusto perspiciatis consequuntur rerum
+          aliquam vel sequi, nisi laudantium sint neque rem. Temporibus, aut
+          sapiente. Incidunt quod debitis blanditiis ad beatae soluta, numquam
+          quisquam eos illum suscipit, error neque quas, similique dolor
+          molestias aut sequi mollitia expedita sint minima iste asperiores.
+          Eaque alias fugit ullam! Ratione odio corrupti, consectetur dolorum
+          recusandae vel dignissimos modi alias architecto nemo, eveniet unde
+          veniam optio repudiandae autem! Eos ea molestiae quod veniam quis
+          voluptate, fuga excepturi dolorem. Nisi, rerum. Quidem saepe
+          necessitatibus veniam officiis, fugiat nostrum neque ratione
+          laudantium nulla. Eveniet, facilis! Repellat dolores assumenda fuga
+          laboriosam? Fugit iusto sint quidem voluptate non mollitia aliquam
+          temporibus odio consequatur perspiciatis.
+        </p>
+      </section>
+
+      <!-- CLIENT -->
+      <section>
+        <h3>nos clients</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea hic ex
+          est libero, nesciunt ipsum. Non est nobis sequi natus sed mollitia
+          laudantium in molestiae quidem! Ipsa alias molestiae cupiditate. Ea,
+          atque veniam! Reiciendis dolore rerum tempore eos doloribus! Assumenda
+          repellendus quos reiciendis eum tenetur ut debitis illo delectus
+          eaque, eveniet nobis tempora architecto amet dolorum qui distinctio
+          necessitatibus cum. Beatae accusantium alias ducimus facere iure, quis
+          cumque reprehenderit voluptate dolorem illo nesciunt soluta, aut
+          mollitia, quidem similique ratione ab. Officia, quis? Esse delectus
+          earum amet accusamus nesciunt ad consequuntur?
+        </p>
+      </section>
+
+      <!-- NOUS TROUVER -->
+      <section id="nousTrouver">
+        <h3>Nous trouver</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea hic ex
+          est libero, nesciunt ipsum. Non est nobis sequi natus sed mollitia
+          laudantium in molestiae quidem! Ipsa alias molestiae cupiditate. Ea,
+          atque veniam! Reiciendis dolore rerum tempore eos doloribus! Assumenda
+          repellendus quos reiciendis eum tenetur ut debitis illo delectus
+          eaque, eveniet nobis tempora architecto amet dolorum qui distinctio
+          necessitatibus cum. Beatae accusantium alias ducimus facere iure, quis
+          cumque reprehenderit voluptate dolorem illo nesciunt soluta, aut
+          mollitia, quidem similique ratione ab. Officia, quis? Esse delectus
+          earum amet accusamus nesciunt ad consequuntur?
+        </p>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
